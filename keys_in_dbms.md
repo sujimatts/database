@@ -29,7 +29,7 @@ Mainly we’ve 8 different keys in DBMS. See the list below.
   - Compound Key
   - Surrogate Key
   
-  #Entity and Attribute
+  # Entity and Attribute
   
   Enitity is the main data and the attributes are its characteristics
   ```
