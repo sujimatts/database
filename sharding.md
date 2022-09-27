@@ -5,3 +5,7 @@ Sharding is a database architecture pattern related to ```horizontal partitionin
 It can be helpful to think of horizontal partitioning in terms of how it relates to ```vertical partitioning```. In a vertically-partitioned table, entire columns are separated out and put into new, distinct tables. The data held within one vertical partition is independent from the data in all the others, and each holds both distinct rows and columns. The following diagram illustrates how a table could be partitioned both horizontally and vertically:
 
 ![image](https://user-images.githubusercontent.com/40743779/192419009-9faf9d64-ab97-47c5-aee7-2d8a8a228ef1.png)
+
+Sharding involves breaking up one’s data into two or more smaller chunks, called ```logical shards```. The logical shards are then distributed across separate database nodes, referred to as ```physical shards```, which can hold multiple logical shards. Despite this, the data held within all the shards collectively represent an entire logical dataset.
+
+READ: https://www.digitalocean.com/community/tutorials/understanding-database-sharding
